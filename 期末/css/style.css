@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300);
+@import url('https://fonts.googleapis.com/css?family=Viga');
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  }
+body {
+  background-color:#fffdea;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #666;
+  line-height: 25px;
+}
+.nav-link {
+  font-size:20px;
+  color: #fff;
+  text-indent : 20px; 
+}
+/*--------------------box---------------------*/
+
+.section-header{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section-header h1{
+  font-weight: 700;
+  font-size: 50px;
+  color: #b26031;
+  border-top: none;
+  border-bottom: none;
+  padding: 8px 10px;
+}
+.section-header p{
+  font-size:25px;
+}
+
+@media only screen and (max-width: 768px) {
+  .section-header {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .section-header h1{
+    font-size: 40px;
+  }  
+}
